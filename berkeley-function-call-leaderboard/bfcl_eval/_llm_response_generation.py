@@ -21,6 +21,7 @@ from bfcl_eval.eval_checker.eval_runner_helper import load_file
 from bfcl_eval.model_handler.base_handler import BaseHandler
 from bfcl_eval.model_handler.local_inference.base_oss_handler import OSSHandler
 from bfcl_eval.utils import *
+from bfcl_eval.distractor_injection import inject_distractor_functions
 from tqdm import tqdm
 
 
@@ -55,6 +56,12 @@ def get_args():
         default=None,
         help="Specify the path to a local directory containing the model's config/tokenizer/weights for fully offline inference. Use this only if the model weights are stored in a location other than the default HF_HOME directory.",
     )
+    parser.add_argument(
+        "--num-distractor-functions",
+        type=int,
+        default=0,
+        help="Number of additional random distractor functions to inject into each test case to increase the function pool size. Set to 0 to disable (default).",
+    )
     args = parser.parse_args()
 
     return args
@@ -71,7 +78,7 @@ def build_handler(model_name, temperature):
     return handler
 
 
-def get_involved_test_entries(test_category_args, run_ids):
+def get_involved_test_entries(test_category_args, run_ids, num_distractor_functions=0):
     all_test_categories, all_test_entries_involved = [], []
     if run_ids:
         all_test_categories, all_test_entries_involved = load_test_entries_from_id_file(
@@ -82,6 +89,15 @@ def get_involved_test_entries(test_category_args, run_ids):
         all_test_categories = parse_test_category_argument(test_category_args)
         for test_category in all_test_categories:
             all_test_entries_involved.extend(load_dataset_entry(test_category))
+
+    # Inject distractor functions if requested
+    if num_distractor_functions > 0:
+        print(f"Injecting {num_distractor_functions} distractor functions into each test case...")
+        all_test_entries_involved = inject_distractor_functions(
+            all_test_entries_involved,
+            num_distractors=num_distractor_functions
+        )
+        print(f"Distractor injection complete.")
 
     return (
         all_test_categories,
@@ -352,7 +368,11 @@ def main(args):
     (
         all_test_categories,
         all_test_entries_involved,
-    ) = get_involved_test_entries(args.test_category, args.run_ids)
+    ) = get_involved_test_entries(
+        args.test_category, 
+        args.run_ids, 
+        num_distractor_functions=getattr(args, 'num_distractor_functions', 0)
+    )
 
     for model_name in args.model:
         if model_name not in MODEL_CONFIG_MAPPING:
