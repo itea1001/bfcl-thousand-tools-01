@@ -47,3 +47,4 @@ Both models hit the same practical limit at 1024 functions despite GPT-4o's theo
    - Large pools (>256 functions): GPT-4o recommended
 3. **System design**: Both models need function filtering/ranking for 500+ tool scenarios
 
+
