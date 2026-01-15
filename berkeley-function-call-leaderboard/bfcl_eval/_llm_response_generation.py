@@ -352,13 +352,18 @@ def main(args):
 
     # Note: The following environment variables are needed for the memory vector store implementation
     # Otherwise you get segfault or huggingface tokenizer warnings
-    # disable HuggingFace tokenizers’ thread pool
+    # disable HuggingFace tokenizers' thread pool
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     # limit all OpenMP/MKL threads to 1
     os.environ["OMP_NUM_THREADS"] = "1"
     os.environ["MKL_NUM_THREADS"] = "1"
     # use spawn method for multiprocessing
     mp.set_start_method("spawn", force=True)
+    
+    # Handle prompt variation if specified
+    if hasattr(args, 'prompt_variation') and args.prompt_variation:
+        print(f"Using prompt variation: {args.prompt_variation}")
+        # TODO: Implement actual prompt variation logic using prompt_variations.py
 
     if type(args.model) is not list:
         args.model = [args.model]
