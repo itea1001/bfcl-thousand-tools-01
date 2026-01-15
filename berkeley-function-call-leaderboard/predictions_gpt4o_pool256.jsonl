@@ -1,0 +1,400 @@
+{"test_id": "simple_python_0", "prediction": {"name": "geometry.area_triangle", "arguments": {"base": 10, "height": 5}}}
+{"test_id": "simple_python_1", "prediction": {"name": "math.factorial", "arguments": {"number": 5}}}
+{"test_id": "simple_python_2", "prediction": {"name": "math.hypot", "arguments": {"x": 4, "y": 5}}}
+{"test_id": "simple_python_3", "prediction": {"name": "algebra.quadratic_roots", "arguments": {"a": 1, "b": -3, "c": 2}}}
+{"test_id": "simple_python_4", "prediction": {"name": "solve_quadratic_equation", "arguments": {"a": 2, "b": 6, "c": 5}}}
+{"test_id": "simple_python_5", "prediction": {"name": "solve_quadratic", "arguments": {"a": 3, "b": -11, "c": -4, "root_type": "all"}}}
+{"test_id": "simple_python_6", "prediction": {"name": "solve_quadratic", "arguments": {"a": 2, "b": 5, "c": 3}}}
+{"test_id": "simple_python_7", "prediction": {"name": "calculate_circumference", "arguments": {"radius": 4, "unit": "inches"}}}
+{"test_id": "simple_python_8", "prediction": {"name": "geometry.area_circle", "arguments": {"radius": 10}}}
+{"test_id": "simple_python_9", "prediction": {"name": "math.circle_area", "arguments": {"radius": 5}}}
+{"test_id": "simple_python_10", "prediction": {"name": "calc_area_triangle", "arguments": {"base": 6, "height": 10}}}
+{"test_id": "simple_python_11", "prediction": {"name": "calculate_triangle_area", "arguments": {"base": 10, "height": 5}}}
+{"test_id": "simple_python_12", "prediction": {"name": "geometry_circle.calculate", "arguments": {"radius": 3}}}
+{"test_id": "simple_python_13", "prediction": {"name": "calculate_area_under_curve", "arguments": {"function": "x**2", "interval": "[1"}}}
+{"test_id": "simple_python_14", "prediction": {"name": "calculate_derivative", "arguments": {"function": "3*x**2 + 2*x - 1"}}}
+{"test_id": "simple_python_15", "prediction": {"name": "integrate", "arguments": {"function": "x**3", "start_x": -2, "end_x": 3, "method": "simpson"}}}
+{"test_id": "simple_python_16", "prediction": {"name": "calculus.derivative", "arguments": {"function": "2*x**2", "value": 1}}}
+{"test_id": "simple_python_17", "prediction": {"name": "find_prime_numbers", "arguments": {"start": 1, "end": "450)][find_prime_factors(number=450", "formatted": "True"}}}
+{"test_id": "simple_python_18", "prediction": {"name": "number_analysis.prime_factors", "arguments": {"number": 123456}}}
+{"test_id": "simple_python_19", "prediction": {"name": "math.gcd", "arguments": {"num1": 40, "num2": 50}}}
+{"test_id": "simple_python_20", "prediction": {"name": "math.hcf", "arguments": {"number1": 36, "number2": 24}}}
+{"test_id": "simple_python_21", "prediction": {"name": "math_gcd", "arguments": {"a": 36, "b": 48}}}
+{"test_id": "simple_python_22", "prediction": {"name": "math.gcd", "arguments": {"num1": 12, "num2": 15}}}
+{"test_id": "simple_python_23", "prediction": {"name": "prime_factorize", "arguments": {"number": 60, "return_type": "dictionary"}}}
+{"test_id": "simple_python_24", "prediction": {"name": "math_gcd", "arguments": {"a": 12, "b": 18}}}
+{"test_id": "simple_python_25", "prediction": {"name": "calculate_final_velocity", "arguments": {"height": 150, "initial_velocity": 0}}}
+{"test_id": "simple_python_26", "prediction": {"name": "calculate_velocity", "arguments": {"distance": 50, "duration": 2}}}
+{"test_id": "simple_python_27", "prediction": {"name": "final_velocity", "arguments": {"initial_velocity": 10, "acceleration": 2, "time": 5}}}
+{"test_id": "simple_python_28", "prediction": {"name": "calculate_displacement", "arguments": {"initial_velocity": 10, "time": 5, "acceleration": 9.8}}}
+{"test_id": "simple_python_29", "prediction": {"name": "calculate_final_speed", "arguments": {"time": 5}}}
+{"test_id": "simple_python_30", "prediction": {"name": "kinematics.final_velocity_from_distance", "arguments": {"acceleration": 4, "distance": 300}}}
+{"test_id": "simple_python_31", "prediction": {"name": "calculate_final_velocity", "arguments": {"initial_velocity": 0, "acceleration": 9.8, "time": 5}}}
+{"test_id": "simple_python_32", "prediction": {"name": "calculate_final_speed", "arguments": {"initial_velocity": 0, "height": 100}}}
+{"test_id": "simple_python_33", "prediction": {"name": "map_service.get_directions", "arguments": {"start": "Sydney", "end": "Melbourne", "avoid": []}}}
+{"test_id": "simple_python_34", "prediction": {"name": "travel_itinerary_generator", "arguments": {"destination": "Tokyo", "days": 7, "daily_budget": 100, "exploration_type": "nature"}}}
+{"test_id": "simple_python_35", "prediction": {"name": "vegan_restaurant.find_nearby", "arguments": {"location": "\"New York", "operating_hours": 23}}}
+{"test_id": "simple_python_36", "prediction": {"name": "get_shortest_driving_distance", "arguments": {"origin": "New York City", "destination": "Washington D.C."}}}
+{"test_id": "simple_python_37", "prediction": {"name": "route.estimate_time", "arguments": {"start_location": "San Francisco", "end_location": "Los Angeles", "stops": "[\"Santa Barbara\""}}}
+{"test_id": "simple_python_38", "prediction": {"name": "calculate_electrostatic_potential", "arguments": {"charge1": 1e-09, "charge2": 2e-09, "distance": 0.05}}}
+{"test_id": "simple_python_39", "prediction": {"name": "calculate_electric_field", "arguments": {"charge": 2, "distance": 3}}}
+{"test_id": "simple_python_40", "prediction": {"name": "calculate_magnetic_field", "arguments": {"current": 5, "radius": 4}}}
+{"test_id": "simple_python_41", "prediction": {"name": "electromagnetic_force", "arguments": {"charge1": 5, "charge2": 7, "distance": 3}}}
+{"test_id": "simple_python_42", "prediction": {"name": "calculate_resonant_frequency", "arguments": {"inductance": 0.05, "capacitance": 0.0001}}}
+{"test_id": "simple_python_43", "prediction": {"name": "calculate_magnetic_field_strength", "arguments": {"current": 20, "distance": 10}}}
+{"test_id": "simple_python_44", "prediction": {"name": "calculate_electric_field_strength", "arguments": {"charge": 0.01, "distance": 4}}}
+{"test_id": "simple_python_45", "prediction": {"name": "thermo.calculate_energy", "arguments": {"mass": 100, "phase_transition": "vaporization", "substance": "water"}}}
+{"test_id": "simple_python_46", "prediction": {"name": "calculate_final_temperature", "arguments": {"mass1": 20, "temperature1": 30, "mass2": 15, "temperature2": 60}}}
+{"test_id": "simple_python_47", "prediction": {"name": "get_boiling_melting_points", "arguments": {"substance": "water", "sea_level": 5000}}}
+{"test_id": "simple_python_48", "prediction": {"name": "calculate_density", "arguments": {"mass": 45, "volume": 15}}}
+{"test_id": "simple_python_49", "prediction": {"name": "calc_absolute_pressure", "arguments": {"atm_pressure": 1, "gauge_pressure": 2}}}
+{"test_id": "simple_python_50", "prediction": {"name": "entropy_change.calculate", "arguments": {"substance": "water", "mass": 1, "initial_temperature": 0, "final_temperature": 100, "pressure": 1}}}
+{"test_id": "simple_python_51", "prediction": {"name": "calculate_entropy_change", "arguments": {"initial_temp": 300, "final_temp": 400, "heat_capacity": 5}}}
+{"test_id": "simple_python_52", "prediction": {"name": "calc_heat_capacity", "arguments": {"temp": 298, "volume": 10}}}
+{"test_id": "simple_python_53", "prediction": {"name": "fetch_DNA_sequence", "arguments": {"DNA_id": "DNA123"}}}
+{"test_id": "simple_python_54", "prediction": {"name": "get_protein_sequence", "arguments": {"gene": "BRCA1"}}}
+{"test_id": "simple_python_55", "prediction": {"name": "biology.get_cell_info", "arguments": {"cell_type": "human", "detailed": "True"}}}
+{"test_id": "simple_python_56", "prediction": {"name": "get_proteins", "arguments": {"cell_compartment": "plasma membrane", "include_description": false}}}
+{"test_id": "simple_python_57", "prediction": {"name": "calculate_cell_density", "arguments": {"optical_density": 0.6, "dilution": 5}}}
+{"test_id": "simple_python_58", "prediction": {"name": "The provided functions do not support answering this question.", "arguments": {}}}
+{"test_id": "simple_python_59", "prediction": {"name": "calculate_molecular_weight", "arguments": {"compound": "C6H12O6", "to_unit": "grams/mole"}}}
+{"test_id": "simple_python_60", "prediction": {"name": "mutation_type.find", "arguments": {"snp_id": "rs6034464"}}}
+{"test_id": "simple_python_61", "prediction": {"name": "diabetes_prediction", "arguments": {"weight": 150, "height": 70, "activity_level": "lightly active"}}}
+{"test_id": "simple_python_62", "prediction": {"name": "analyze_dna_sequence", "arguments": {"sequence": "AGTCGATCGAACGTACGTACG", "reference_sequence": "AGTCCATCGAACGTACGTACG", "mutation_type": "substitution"}}}
+{"test_id": "simple_python_63", "prediction": {"name": "genetics.calculate_similarity", "arguments": {"species1": "human", "species2": "chimp", "format": "percentage"}}}
+{"test_id": "simple_python_64", "prediction": {"name": "calculate_genotype_frequency", "arguments": {"allele_frequency": 0.3, "genotype": "AA"}}}
+{"test_id": "simple_python_65", "prediction": {"name": "calculate_density", "arguments": {"country": "Brazil", "year": "2022", "population": 213000000, "land_area": 8500000}}}
+{"test_id": "simple_python_66", "prediction": {"name": "ecology_data.precipitation_stats", "arguments": {"location": "Amazon rainforest", "time_frame": "six_months"}}}
+{"test_id": "simple_python_67", "prediction": {"name": "identify_bird", "arguments": {"color": "green", "habitat": "forest", "size": "small"}}}
+{"test_id": "simple_python_68", "prediction": {"name": "forest_growth_forecast", "arguments": {"location": "Yellowstone National Park", "years": 5, "include_human_impact": "True"}}}
+{"test_id": "simple_python_69", "prediction": {"name": "ecology.get_turtle_population", "arguments": {"location": "Mississippi river", "year": 2020, "species": "True"}}}
+{"test_id": "simple_python_70", "prediction": {"name": "calculate_vehicle_emission", "arguments": {"vehicle_type": "gas", "miles_driven": 1500}}}
+{"test_id": "simple_python_71", "prediction": {"name": "generate_DNA_sequence", "arguments": {"length": 100, "preferences": "[\"G\""}}}
+{"test_id": "simple_python_72", "prediction": {"name": "five_factor_model.analyse", "arguments": {"talkative": "False", "nervous": "False", "artistic_interests": "False", "lazy": "False", "forgiving": "False)", "calculate_fitness(trait_values": "[0.8", "trait_contributions": "[0.4"}}}
+{"test_id": "simple_python_73", "prediction": {"name": "population_projections", "arguments": {"country": "United States", "years": 20}}}
+{"test_id": "simple_python_74", "prediction": {"name": "calculate_bacteria_evolution_rate", "arguments": {"start_population": 5000, "duplication_frequency": 1, "duration": 6}}}
+{"test_id": "simple_python_75", "prediction": {"name": "elephant_population_estimate", "arguments": {"current_population": 35000, "growth_rate": 0.015, "years": 5}}}
+{"test_id": "simple_python_76", "prediction": {"name": "prediction.evolution", "arguments": {"species": "Homo Sapiens", "years": 50, "model": "Darwin"}}}
+{"test_id": "simple_python_77", "prediction": {"name": "restaurant.find_nearby", "arguments": {"location": "\"Los Angeles", "dietary_preference": ["Vegan"]}}}
+{"test_id": "simple_python_78", "prediction": {"name": "average_temperature", "arguments": {"location": "Austin", "days": 3, "temp_unit": "Celsius"}}}
+{"test_id": "simple_python_79", "prediction": {"name": "create_histogram", "arguments": {"data": "[85", "bins": 5}}}
+{"test_id": "simple_python_80", "prediction": {"name": "find_restaurants", "arguments": {"location": "Manhattan", "food_type": "Thai", "number": 5, "dietary_requirements": ["vegan"]}}}
+{"test_id": "simple_python_81", "prediction": {"name": "map_routing.fastest_route", "arguments": {"start_location": "San Francisco", "end_location": "Los Angeles", "avoid_tolls": "True"}}}
+{"test_id": "simple_python_82", "prediction": {"name": "calculate_average", "arguments": {"numbers": "[12"}}}
+{"test_id": "simple_python_83", "prediction": {"name": "calculate_distance", "arguments": {"coord1": "(33.4484", "coord2": "(34.0522", "unit": "miles"}}}
+{"test_id": "simple_python_84", "prediction": {"name": "calculate_bmi", "arguments": {"weight": 85, "height": 180}}}
+{"test_id": "simple_python_85", "prediction": {"name": "calculate_distance", "arguments": {"start_point": "\"Boston", "end_point": "\"Washington"}}}
+{"test_id": "simple_python_86", "prediction": {"name": "city_distance.find_shortest", "arguments": {"start_city": "New York", "end_city": "Los Angeles", "transportation": "train", "allow_transfer": "True"}}}
+{"test_id": "simple_python_87", "prediction": {"name": "array_sort", "arguments": {"list": "[5", "order": "ascending"}}}
+{"test_id": "simple_python_88", "prediction": {"name": "calculate_BMI", "arguments": {"weight_kg": 70, "height_m": 1.75}}}
+{"test_id": "simple_python_89", "prediction": {"name": "db_fetch_records", "arguments": {"database_name": "StudentDB", "table_name": "students", "conditions": "{\"department\": \"Science\""}}}
+{"test_id": "simple_python_90", "prediction": {"name": "employee.fetch_data", "arguments": {"company_name": "ABC Ltd.", "employee_id": 345, "data_field": "[\"Personal Info\""}}}
+{"test_id": "simple_python_91", "prediction": {"name": "get_restaurant", "arguments": {"cuisine": "Sushi", "location": "Boston", "condition": "opens on Sundays"}}}
+{"test_id": "simple_python_92", "prediction": {"name": "imdb.find_movies_by_actor", "arguments": {"actor_name": "Leonardo DiCaprio", "year": 2010}}}
+{"test_id": "simple_python_93", "prediction": {"name": "get_theater_movie_releases", "arguments": {"location": "LA", "timeframe": 7, "format": "IMAX"}}}
+{"test_id": "simple_python_94", "prediction": {"name": "update_user_info", "arguments": {"user_id": 43523, "update_info": "{\"name\": \"John Doe\""}}}
+{"test_id": "simple_python_95", "prediction": {"name": "calc_area_triangle", "arguments": {"base": 5, "height": 3}}}
+{"test_id": "simple_python_96", "prediction": {"name": "database.query", "arguments": {"table": "user", "conditions": "[{\"field\": \"age\"", "\"operation\": \"": "\""}}}
+{"test_id": "simple_python_97", "prediction": {"name": "math.factorial", "arguments": {"number": 5}}}
+{"test_id": "simple_python_98", "prediction": {"name": "calculate_clock_angle", "arguments": {"hours": 6, "minutes": 30}}}
+{"test_id": "simple_python_99", "prediction": {"name": "plot_sine_wave", "arguments": {"start_range": 0, "end_range": 6.2832, "frequency": 5}}}
+{"test_id": "simple_python_100", "prediction": {"name": "light_travel_time", "arguments": {"distance_in_light_years": 4}}}
+{"test_id": "simple_python_101", "prediction": {"name": "calculate_speed", "arguments": {"distance": 450, "time": 20, "to_unit": "km/h"}}}
+{"test_id": "simple_python_102", "prediction": {"name": "calculate_distance", "arguments": {"body1": "Earth", "body2": "Moon", "unit": "miles"}}}
+{"test_id": "simple_python_103", "prediction": {"name": "mathematics.calculate_area_under_curve", "arguments": {"polynomial": "[3", "limits": "[-1"}}}
+{"test_id": "simple_python_104", "prediction": {"name": "calculate_area", "arguments": {"base": 6, "height": 10}}}
+{"test_id": "simple_python_105", "prediction": {"name": "math.power", "arguments": {"base": 3, "exponent": 4}}}
+{"test_id": "simple_python_106", "prediction": {"name": "train_random_forest_classifier", "arguments": {"dataset": "your_dataset_name", "max_depth": 5, "n_estimators": 100}}}
+{"test_id": "simple_python_107", "prediction": {"name": "calculate_bmi", "arguments": {"weight": 70, "height": 175}}}
+{"test_id": "simple_python_108", "prediction": {"name": "run_linear_regression", "arguments": {"predictors": "[\"Age\"", "target": "Purchase_Amount", "standardize": "True"}}}
+{"test_id": "simple_python_109", "prediction": {"name": "random_forest.train", "arguments": {"n_estimators": 100, "max_depth": 5, "data": "my_data"}}}
+{"test_id": "simple_python_110", "prediction": {"name": "predict_house_price", "arguments": {"bedrooms": 3, "bathrooms": 2, "area": 1800, "location": "San Francisco"}}}
+{"test_id": "simple_python_111", "prediction": {"name": "random.normalvariate", "arguments": {"mu": 0, "sigma": 1}}}
+{"test_id": "simple_python_112", "prediction": {"name": "calculate_probability", "arguments": {"total_outcomes": 52, "favorable_outcomes": 4}}}
+{"test_id": "simple_python_113", "prediction": {"name": "probability.dice_roll", "arguments": {"desired_number": 6, "number_of_rolls": 2, "die_sides": 6}}}
+{"test_id": "simple_python_114", "prediction": {"name": "calculate_binomial_probability", "arguments": {"number_of_trials": 10, "number_of_successes": 5, "probability_of_success": 0.5}}}
+{"test_id": "simple_python_115", "prediction": {"name": "calculate_binomial_probability", "arguments": {"number_of_trials": 8, "number_of_successes": 5, "probability_of_success": 0.5}}}
+{"test_id": "simple_python_116", "prediction": {"name": "probabilities.calculate_single", "arguments": {"total_outcomes": 52, "event_outcomes": 4}}}
+{"test_id": "simple_python_117", "prediction": {"name": "probability_of_event", "arguments": {"success_outcomes": 13, "total_outcomes": 52, "format_as_ratio": "True"}}}
+{"test_id": "simple_python_118", "prediction": {"name": "stats.t_test", "arguments": {"array_1": "[10", "array_2": "[18", "alpha": 0.05}}}
+{"test_id": "simple_python_119", "prediction": {"name": "hypothesis_testing.ttest_ind", "arguments": {"sample1": "[22", "sample2": "[23", "significance_level": 0.05}}}
+{"test_id": "simple_python_120", "prediction": {"name": "run_two_sample_ttest", "arguments": {"group1": "[3", "group2": "[7", "equal_variance": true}}}
+{"test_id": "simple_python_121", "prediction": {"name": "calculate_binomial_probability", "arguments": {"number_of_trials": 100, "number_of_successes": 60, "probability_of_success": 0.5}}}
+{"test_id": "simple_python_122", "prediction": {"name": "chi_squared_test", "arguments": {"table": "[[10"}}}
+{"test_id": "simple_python_123", "prediction": {"name": "hypothesis_testing.two_sample_t_test", "arguments": {"group1": "[12.4", "group2": "[10.5", "alpha": 0.05}}}
+{"test_id": "simple_python_124", "prediction": {"name": "t_test", "arguments": {"dataset_A": "[12", "dataset_B": "[15"}}}
+{"test_id": "simple_python_125", "prediction": {"name": "predict_house_price", "arguments": {"area": 2500, "rooms": 5, "year": 1990, "location": "San Francisco"}}}
+{"test_id": "simple_python_126", "prediction": {"name": "linear_regression.get_r_squared", "arguments": {"dataset_path": "C:/data/cars.csv", "independent_variables": "[\"engine_size\"", "dependent_variable": "car_price"}}}
+{"test_id": "simple_python_127", "prediction": {"name": "calculate_NPV", "arguments": {"cash_flows": "[200", "discount_rate": 0.1, "initial_investment": 2000}}}
+{"test_id": "simple_python_128", "prediction": {"name": "finance.calculate_quarterly_dividend_per_share", "arguments": {"total_payout": 50000000, "outstanding_shares": 100000000}}}
+{"test_id": "simple_python_129", "prediction": {"name": "calculate_discounted_cash_flow", "arguments": {"coupon_payment": 100, "period": 5, "discount_rate": 0.04}}}
+{"test_id": "simple_python_130", "prediction": {"name": "finance_calculator.npv", "arguments": {"cash_flows": "[-50000", "discount_rate": 0.08}}}
+{"test_id": "simple_python_131", "prediction": {"name": "calculate_compound_interest", "arguments": {"principal": 10000, "rate": 0.05, "time": 10, "n": 4}}}
+{"test_id": "simple_python_132", "prediction": {"name": "calculate_return_on_equity", "arguments": {"net_income": 2000000, "shareholder_equity": 10000000, "dividends_paid": 200000}}}
+{"test_id": "simple_python_133", "prediction": {"name": "finance.predict_future_value", "arguments": {"present_value": 5000, "annual_interest_rate": 5, "compounding_periods_per_year": 12, "time_years": 3}}}
+{"test_id": "simple_python_134", "prediction": {"name": "investment.predictProfit", "arguments": {"investment_amount": 5000, "annual_return": 0.07, "years": 5}}}
+{"test_id": "simple_python_135", "prediction": {"name": "calculate_return_on_investment", "arguments": {"purchase_price": 20, "sale_price": 25, "dividend": 2}}}
+{"test_id": "simple_python_136", "prediction": {"name": "compound_interest", "arguments": {"principal": 10000, "annual_rate": 5, "compounding_freq": "monthly", "time_in_years": 5}}}
+{"test_id": "simple_python_137", "prediction": {"name": "calculate_stock_return", "arguments": {"investment_amount": 5000, "annual_growth_rate": 0.06, "holding_period": 5}}}
+{"test_id": "simple_python_138", "prediction": {"name": "portfolio_future_value", "arguments": {"stock": "X", "invested_amount": 5000, "expected_annual_return": 0.05, "years": 7}}}
+{"test_id": "simple_python_139", "prediction": {"name": "estimate_mutual_fund_return", "arguments": {"yearly_yield": 5, "investment_amount": 2000, "years": 3}}}
+{"test_id": "simple_python_140", "prediction": {"name": "calculate_cagr", "arguments": {"initial_value": 2000, "final_value": 3000, "period_in_years": 4}}}
+{"test_id": "simple_python_141", "prediction": {"name": "get_metal_price", "arguments": {"metal": "gold", "measure": "ounce"}}}
+{"test_id": "simple_python_142", "prediction": {"name": "get_stock_price", "arguments": {"company_name": "Amazon", "date": "2022-03-11", "exchange": "NASDAQ"}}}
+{"test_id": "simple_python_143", "prediction": {"name": "get_stock_price", "arguments": {"company": "AAPL", "days": 5, "exchange": "NASDAQ"}}}
+{"test_id": "simple_python_144", "prediction": {"name": "market_performance.get_data", "arguments": {"indexes": "[\"S&P 500\"", "days": 5}}}
+{"test_id": "simple_python_145", "prediction": {"name": "calculate_compound_interest", "arguments": {"principal": 5000, "rate": 0.05, "time": 10}}}
+{"test_id": "simple_python_146", "prediction": {"name": "get_stock_price", "arguments": {"company_names": ["Amazon"]}}}
+{"test_id": "simple_python_147", "prediction": {"name": "get_stock_prices", "arguments": {"companies": "[\"Microsoft\"", "duration": "2 weeks"}}}
+{"test_id": "simple_python_148", "prediction": {"name": "finance.calculate_future_value", "arguments": {"initial_investment": 20000, "rate_of_return": 0.08, "years": 5}}}
+{"test_id": "simple_python_149", "prediction": {"name": "get_stock_price", "arguments": {"company_names": "[\"Apple\""}}}
+{"test_id": "simple_python_150", "prediction": {"name": "calculate_roi", "arguments": {"deposit": 1000, "annual_interest_rate": 0.03, "years": 1}}}
+{"test_id": "simple_python_151", "prediction": {"name": "highest_grossing_banks", "arguments": {"country": "United States", "year": 2020, "top_n": 1}}}
+{"test_id": "simple_python_152", "prediction": {"name": "calculate_mutual_fund_balance", "arguments": {"investment_amount": 50000, "annual_yield": 5.0, "years": 3}}}
+{"test_id": "simple_python_153", "prediction": {"name": "calculate_compounded_interest", "arguments": {"principal": 5000, "rate": 0.03, "time": 5, "n": 4}}}
+{"test_id": "simple_python_154", "prediction": {"name": "calculate_future_value", "arguments": {"present_value": 5000, "annual_interest_rate": 0.05, "years": 10}}}
+{"test_id": "simple_python_155", "prediction": {"name": "finance.predict_future_value", "arguments": {"present_value": 1000, "annual_interest_rate": 0.05, "time_years": 2}}}
+{"test_id": "simple_python_156", "prediction": {"name": "get_crime_rate", "arguments": {"case_number": "CA123456", "county": "San Diego", "details": "True"}}}
+{"test_id": "simple_python_157", "prediction": {"name": "criminal_history.check_felonies", "arguments": {"full_name": "John Doe", "birth_date": "01-01-1980", "state": "California"}}}
+{"test_id": "simple_python_158", "prediction": {"name": "get_criminal_records", "arguments": {"name": "Mr. X", "location": "\"New York", "from_year": 2012, "to_year": 2015}}}
+{"test_id": "simple_python_159", "prediction": {"name": "get_act_details", "arguments": {"act_name": "Criminal Law Amendment Act", "amendment_year": 2013}}}
+{"test_id": "simple_python_160", "prediction": {"name": "get_case_info", "arguments": {"docket": "2022/AL2562", "court": "California", "info_type": "victim"}}}
+{"test_id": "simple_python_161", "prediction": {"name": "crime_statute_lookup", "arguments": {"jurisdiction": "California", "crime": "theft", "detail_level": "detailed"}}}
+{"test_id": "simple_python_162", "prediction": {"name": "generate_law_contract", "arguments": {"parties": "[\"John\"", "contract_type": "rental agreement", "location": "California"}}}
+{"test_id": "simple_python_163", "prediction": {"name": "property_records.get", "arguments": {"address": "123 main street", "parcel_number": "1234567890", "county": "Santa Clara", "include_owner": "True"}}}
+{"test_id": "simple_python_164", "prediction": {"name": "get_crime_rate", "arguments": {"city": "San Francisco", "state": "CA", "type": "violent", "year": 2020}}}
+{"test_id": "simple_python_165", "prediction": {"name": "civil_cases.retrieve", "arguments": {"year": 2020, "crime_type": "theft", "location": "\"Los Angeles"}}}
+{"test_id": "simple_python_166", "prediction": {"name": "lawyer.find_nearby", "arguments": {"city": "\"Chicago", "specialty": ["Divorce"], "fee": 400}}}
+{"test_id": "simple_python_167", "prediction": {"name": "law.civil.get_case_details", "arguments": {"case_title": "Roe v. Wade", "include_dissent": "True"}}}
+{"test_id": "simple_python_168", "prediction": {"name": "lawsuit_search", "arguments": {"company": "Google", "start_date": "01-01-2021", "location": "California", "status": "ongoing"}}}
+{"test_id": "simple_python_169", "prediction": {"name": "court_case.search", "arguments": {"docket_number": "123456", "location": "Texas", "full_text": "False"}}}
+{"test_id": "simple_python_170", "prediction": {"name": "law_case_search.find_historical", "arguments": {"subject": "fraud", "from_year": 2010, "to_year": 2015}}}
+{"test_id": "simple_python_171", "prediction": {"name": "fetch_law_case_details", "arguments": {"case_number": 43403, "court": "New York", "year": 2018}}}
+{"test_id": "simple_python_172", "prediction": {"name": "The provided functions require a case ID and a boolean flag for details to fetch detailed case information. Since the case ID is not provided, I cannot proceed with the request. Please provide the case ID for the 'R vs Adams' legal case.", "arguments": {}}}
+{"test_id": "simple_python_173", "prediction": {"name": "law_case_search", "arguments": {"topic": "land disputes", "year_range": "[2015", "location": "New York", "judicial_system": "state"}}}
+{"test_id": "simple_python_174", "prediction": {"name": "get_top_cases", "arguments": {"field_of_law": "constitutional law", "top_number": 10, "country": "China"}}}
+{"test_id": "simple_python_175", "prediction": {"name": "lawyer.get_experience", "arguments": {"name": "John Doe", "law_type": "Bankruptcy"}}}
+{"test_id": "simple_python_176", "prediction": {"name": "lawsuit_details.find", "arguments": {"company_name": "Apple Inc.", "year": 2010, "case_type": "Patent"}}}
+{"test_id": "simple_python_177", "prediction": {"name": "lawsuit_details.find", "arguments": {"company_name": "Facebook", "year": 2018, "case_type": "Patent"}}}
+{"test_id": "simple_python_178", "prediction": {"name": "fetch_law_case_details", "arguments": {"case_number": 2019080202, "court": "Los Angeles", "year": 2019}}}
+{"test_id": "simple_python_179", "prediction": {"name": "find_latest_court_case", "arguments": {"company1": "Apple", "company2": "Samsung", "country": "USA"}}}
+{"test_id": "simple_python_180", "prediction": {"name": "lawsuits_search", "arguments": {"company_name": "Google", "location": "California", "year": 2020}}}
+{"test_id": "simple_python_181", "prediction": {"name": "get_lawsuit_details", "arguments": {"case_number": "123456-ABC", "court_location": "Los Angeles", "with_verdict": "True"}}}
+{"test_id": "simple_python_182", "prediction": {"name": "lawsuit_info", "arguments": {"case_number": "XYZ123"}}}
+{"test_id": "simple_python_183", "prediction": {"name": "law_crimes.search", "arguments": {"crime": "lawsuit", "location": "\"Santa Clara County", "year": 2023}}}
+{"test_id": "simple_python_184", "prediction": {"name": "lawsuit.check_case", "arguments": {"case_id": 1234, "closed_status": true}}}
+{"test_id": "simple_python_185", "prediction": {"name": "detailed_weather_forecast", "arguments": {"location": "New York", "duration": 72, "include_precipitation": "True"}}}
+{"test_id": "simple_python_186", "prediction": {"name": "get_current_weather", "arguments": {"location": "\"Tokyo", "unit": "celsius"}}}
+{"test_id": "simple_python_187", "prediction": {"name": "weather.get", "arguments": {"city": "Seattle", "country": "US"}}}
+{"test_id": "simple_python_188", "prediction": {"name": "weather.humidity_forecast", "arguments": {"location": "\"Miami", "days": 7}}}
+{"test_id": "simple_python_189", "prediction": {"name": "weather_forecast_detailed", "arguments": {"location": "\"New York", "days": 3, "details": "True"}}}
+{"test_id": "simple_python_190", "prediction": {"name": "park_information", "arguments": {"park_name": "Yellowstone National Park", "information": "[\"Elevation\""}}}
+{"test_id": "simple_python_191", "prediction": {"name": "locate_tallest_mountains", "arguments": {"location": "\"Denver", "radius": 50, "amount": 5}}}
+{"test_id": "simple_python_192", "prediction": {"name": "calculate_slope_gradient", "arguments": {"point1": "[40.7128", "point2": "[34.0522", "unit": "degree"}}}
+{"test_id": "simple_python_193", "prediction": {"name": "local_nursery.find", "arguments": {"location": "Toronto", "plant_types": ["Annual"]}}}
+{"test_id": "simple_python_194", "prediction": {"name": "get_plants_for_slope", "arguments": {"slope_type": "hill", "num_results": 3}}}
+{"test_id": "simple_python_195", "prediction": {"name": "calculate_carbon_footprint", "arguments": {"daily_miles": 20, "meat_meals_per_week": 3, "annual_trash_weight": 500}}}
+{"test_id": "simple_python_196", "prediction": {"name": "air_quality", "arguments": {"location": "London", "date": "2022-08-16"}}}
+{"test_id": "simple_python_197", "prediction": {"name": "get_air_quality_index", "arguments": {"location": "San Diego", "time": "12:00 PM"}}}
+{"test_id": "simple_python_198", "prediction": {"name": "calculate_daily_water_intake", "arguments": {"weight": 70}}}
+{"test_id": "simple_python_199", "prediction": {"name": "environmental_data.air_quality_index", "arguments": {"location": "San Jose", "days": 3}}}
+{"test_id": "simple_python_200", "prediction": {"name": "calculate_emissions", "arguments": {"distance": 12000, "fuel_type": "gasoline", "fuel_efficiency": 25}}}
+{"test_id": "simple_python_201", "prediction": {"name": "estimate_population", "arguments": {"species": "panda", "country": "China"}}}
+{"test_id": "simple_python_202", "prediction": {"name": "calculate_emission_savings", "arguments": {"energy_type": "renewable", "usage_duration": 3, "region": "California"}}}
+{"test_id": "simple_python_203", "prediction": {"name": "get_air_quality", "arguments": {"location": "Chicago", "detail": "True"}}}
+{"test_id": "simple_python_204", "prediction": {"name": "restaurant.find_nearby", "arguments": {"location": "\"Seattle", "cuisine": "Chinese", "max_distance": 10}}}
+{"test_id": "simple_python_205", "prediction": {"name": "get_traffic_info", "arguments": {"start_location": "Boston", "end_location": "New York", "mode": "driving"}}}
+{"test_id": "simple_python_206", "prediction": {"name": "parks.find_nearby", "arguments": {"location": "\"London", "amenities": ["Tennis Court"]}}}
+{"test_id": "simple_python_207", "prediction": {"name": "get_shortest_driving_distance", "arguments": {"origin": "\"New York", "destination": "\"Miami"}}}
+{"test_id": "simple_python_208", "prediction": {"name": "map_service.get_directions", "arguments": {"start": "New York", "end": "Los Angeles", "avoid": "[\"highways\""}}}
+{"test_id": "simple_python_209", "prediction": {"name": "public_library.find_nearby", "arguments": {"location": "\"Boston", "facilities": "[\"Fiction\""}}}
+{"test_id": "simple_python_210", "prediction": {"name": "get_news", "arguments": {"topic": "Bitcoin", "quantity": 5, "region": "US"}}}
+{"test_id": "simple_python_211", "prediction": {"name": "send_email", "arguments": {"to": "john.doe@example.com", "subject": "Meeting", "body": "Let's meet at 10 AM tomorrow"}}}
+{"test_id": "simple_python_212", "prediction": {"name": "get_stock_info", "arguments": {"company_name": "Apple Inc.", "detail_level": "detailed"}}}
+{"test_id": "simple_python_213", "prediction": {"name": "flight.book", "arguments": {"departure_location": "San Francisco", "destination_location": "London", "date": "2022-04-27", "time": "afternoon", "direct_flight": "True"}}}
+{"test_id": "simple_python_214", "prediction": {"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "\"New York", "date": "any"}}}
+{"test_id": "simple_python_215", "prediction": {"name": "movie_details.brief", "arguments": {"title": "Interstellar", "extra_info": "False"}}}
+{"test_id": "simple_python_216", "prediction": {"name": "sentiment_analysis", "arguments": {"text": "I love the food here! It's always fresh and delicious.", "language": "en"}}}
+{"test_id": "simple_python_217", "prediction": {"name": "fMRI.analyze", "arguments": {"data_source": "~/data/myfMRI.nii", "sequence_type": "multi-band", "smooth": 6, "voxel_size": 2}}}
+{"test_id": "simple_python_218", "prediction": {"name": "patient.get_mri_report", "arguments": {"patient_id": "546382", "mri_type": "brain", "status": "concluded"}}}
+{"test_id": "simple_python_219", "prediction": {"name": "get_neuron_coordinates", "arguments": {"neuron_type": "GABA", "brain_region": "All"}}}
+{"test_id": "simple_python_220", "prediction": {"name": "calculate_neuronal_activity", "arguments": {"input_synaptic_rate": 200, "weight": 0.5, "decay_rate": 0.1}}}
+{"test_id": "simple_python_221", "prediction": {"name": "population_growth_estimate", "arguments": {"location": "London", "years": 5}}}
+{"test_id": "simple_python_222", "prediction": {"name": "calculate_bmi", "arguments": {"weight": 70, "height": 180}}}
+{"test_id": "simple_python_223", "prediction": {"name": "group_dynamics.pattern", "arguments": {"total": 50, "extroverts": 15, "introverts": 35}}}
+{"test_id": "simple_python_224", "prediction": {"name": "social_media_analytics.most_followed", "arguments": {"topic": "psychology", "sub_topics": "[\"behaviour\"", "region": "all"}}}
+{"test_id": "simple_python_225", "prediction": {"name": "The question lacks the required parameters to determine the percentage of population preference. Specifically, I need the societal category ", "arguments": {}}}
+{"test_id": "simple_python_226", "prediction": {"name": "get_zodiac_compatibility", "arguments": {"sign1": "Aries", "sign2": "Gemini", "scale": "percentage"}}}
+{"test_id": "simple_python_227", "prediction": {"name": "get_personality_traits", "arguments": {"type": "ENFJ", "traits": "[\"strengths\""}}}
+{"test_id": "simple_python_228", "prediction": {"name": "get_personality_traits", "arguments": {"hobby": "jogging", "trait_count": 3}}}
+{"test_id": "simple_python_229", "prediction": {"name": "get_bigfive_scores", "arguments": {"characteristics": "[\"efficient\""}}}
+{"test_id": "simple_python_230", "prediction": {"name": "historic_leader_search", "arguments": {"location": "France", "date": 1510}}}
+{"test_id": "simple_python_231", "prediction": {"name": "european_history.get_events", "arguments": {"country": "Germany", "century": 20, "event_type": "war", "european_history.get_events(country": "Germany"}}}
+{"test_id": "simple_python_232", "prediction": {"name": "monarch.getMonarchOfYear", "arguments": {"location": "England", "year": 1800, "fullName": true}}}
+{"test_id": "simple_python_233", "prediction": {"name": "european_history.get_event_date", "arguments": {"event_name": "Treaty of Tordesillas", "format": "YYYY"}}}
+{"test_id": "simple_python_234", "prediction": {"name": "history_eu.fetch_events", "arguments": {"century": 19, "region": "Southern", "category": "Wars", "history_eu.fetch_events(century": 19}}}
+{"test_id": "simple_python_235", "prediction": {"name": "history_fact.fetch", "arguments": {"event": "Treaty of Lisbon", "depth": "detailed"}}}
+{"test_id": "simple_python_236", "prediction": {"name": "us_history.get_event_info", "arguments": {"event_name": "American Civil War", "specific_info": "Start Date"}}}
+{"test_id": "simple_python_237", "prediction": {"name": "get_historical_GDP", "arguments": {"country": "United States", "start_year": 1960, "end_year": 2000}}}
+{"test_id": "simple_python_238", "prediction": {"name": "us_history.get_president", "arguments": {"event": "American Civil War", "year": 1861}}}
+{"test_id": "simple_python_239", "prediction": {"name": "US_president.in_year", "arguments": {"year": 1861, "full_name": "True"}}}
+{"test_id": "simple_python_240", "prediction": {"name": "history_api.get_president_by_year", "arguments": {"year": 1940}}}
+{"test_id": "simple_python_241", "prediction": {"name": "US_President_During_Event", "arguments": {"event": "Civil War"}}}
+{"test_id": "simple_python_242", "prediction": {"name": "get_scientist_for_discovery", "arguments": {"discovery": "theory of evolution"}}}
+{"test_id": "simple_python_243", "prediction": {"name": "get_discoverer", "arguments": {"discovery": "neutron", "detail": "True"}}}
+{"test_id": "simple_python_244", "prediction": {"name": "science_history.get_invention", "arguments": {"invention_name": "law of universal gravitation", "want_year": true}}}
+{"test_id": "simple_python_245", "prediction": {"name": "discoverer.get", "arguments": {"element_name": "radium"}}}
+{"test_id": "simple_python_246", "prediction": {"name": "science_history.get_discovery_details", "arguments": {"discovery": "Gravity", "method_used": "default"}}}
+{"test_id": "simple_python_247", "prediction": {"name": "historical_contrib.get_contrib", "arguments": {"scientist": "Albert Einstein", "date": "1915-03-17"}}}
+{"test_id": "simple_python_248", "prediction": {"name": "science_history.get_invention", "arguments": {"invention_name": "theory of relativity", "want_year": true}}}
+{"test_id": "simple_python_249", "prediction": {"name": "religion.history_info", "arguments": {"religion": "Christianity", "till_century": 14, "include_people": "False"}}}
+{"test_id": "simple_python_250", "prediction": {"name": "get_time_difference", "arguments": {"place1": "San Francisco", "place2": "Sydney"}}}
+{"test_id": "simple_python_251", "prediction": {"name": "get_earliest_reference", "arguments": {"name": "Jesus Christ", "source": "historical records"}}}
+{"test_id": "simple_python_252", "prediction": {"name": "get_religion_history", "arguments": {"religion": "Christianity", "century": 16, "sort_by": "importance", "count": 10}}}
+{"test_id": "simple_python_253", "prediction": {"name": "retrieve_religion_info", "arguments": {"religion_name": "Buddhism", "detail_level": "full"}}}
+{"test_id": "simple_python_254", "prediction": {"name": "get_religion_history", "arguments": {"religion": "Christianity", "start_year": 300, "end_year": 400}}}
+{"test_id": "simple_python_255", "prediction": {"name": "religious_history.get_papal_biography", "arguments": {"papal_name": "Innocent III", "include_contributions": true}}}
+{"test_id": "simple_python_256", "prediction": {"name": "generate_circle_image", "arguments": {"radius": 50, "color": "Red"}}}
+{"test_id": "simple_python_257", "prediction": {"name": "identify_color_rgb", "arguments": {"color_name": "Sea Green"}}}
+{"test_id": "simple_python_258", "prediction": {"name": "mix_paint_color", "arguments": {"color1": "yellow", "color2": "blue", "lightness": 60}}}
+{"test_id": "simple_python_259", "prediction": {"name": "calculate_paint_needed", "arguments": {"coverage_rate": 400, "length": 30, "height": 12}}}
+{"test_id": "simple_python_260", "prediction": {"name": "paint_requirement.calculate", "arguments": {"area": "{\"width\": 20", "paint_coverage": 350, "exclusion": "{\"type\": \"window\""}}}
+{"test_id": "simple_python_261", "prediction": {"name": "draw_rectangle", "arguments": {"width": 20, "height": 10, "color": "red"}}}
+{"test_id": "simple_python_262", "prediction": {"name": "modify_painting", "arguments": {"size": "12x18", "medium": "oil", "dominant_color": "red"}}}
+{"test_id": "simple_python_263", "prediction": {"name": "get_sculpture_info", "arguments": {"artist_name": "James Plensa", "detail": "True"}}}
+{"test_id": "simple_python_264", "prediction": {"name": "sculpture.get_details", "arguments": {"artist": "Michelangelo", "title": "David", "detail": "size"}}}
+{"test_id": "simple_python_265", "prediction": {"name": "sculpture_search", "arguments": {"location": "Chicago", "time_frame": "19th century"}}}
+{"test_id": "simple_python_266", "prediction": {"name": "get_sculpture_value", "arguments": {"sculpture": "The Thinker", "artist": "Rodin"}}}
+{"test_id": "simple_python_267", "prediction": {"name": "find_exhibition", "arguments": {"location": "\"New York", "art_form": "modern sculpture", "month": "", "user_ratings": "high"}}}
+{"test_id": "simple_python_268", "prediction": {"name": "sculpture_locator.find_by_artist", "arguments": {"artist": "Michelangelo", "material": "Marble", "location": "\"Rome"}}}
+{"test_id": "simple_python_269", "prediction": {"name": "calculate_compound_interest", "arguments": {"principle": 10000, "interest_rate": 0.05, "time": 10, "compounds_per_year": 1}}}
+{"test_id": "simple_python_270", "prediction": {"name": "building.get_dimensions", "arguments": {"building_name": "Empire State Building", "unit": "feet"}}}
+{"test_id": "simple_python_271", "prediction": {"name": "analyze_structure", "arguments": {"building_id": "B1004", "floors": "[2", "mode": "dynamic"}}}
+{"test_id": "simple_python_272", "prediction": {"name": "circle_properties.get", "arguments": {"radius": 5}}}
+{"test_id": "simple_python_273", "prediction": {"name": "museum.get_hours", "arguments": {"name": "Louvre Museum", "location": "Paris"}}}
+{"test_id": "simple_python_274", "prediction": {"name": "museum_info", "arguments": {"museum_name": "Metropolitan Museum of Art"}}}
+{"test_id": "simple_python_275", "prediction": {"name": "metropolitan_museum.get_top_artworks", "arguments": {"number": 5, "sort_by": "popularity"}}}
+{"test_id": "simple_python_276", "prediction": {"name": "museum_working_hours.get", "arguments": {"museum": "Louvre Museum", "location": "Paris"}}}
+{"test_id": "simple_python_277", "prediction": {"name": "museum_info", "arguments": {"museum": "The British Museum", "date": "2023-06-20", "information": "[\"opening_hours\""}}}
+{"test_id": "simple_python_278", "prediction": {"name": "get_instrument_details", "arguments": {"instrument": "piano", "manufacturer": "Yamaha", "features": "[\"price\""}}}
+{"test_id": "simple_python_279", "prediction": {"name": "instrument_price.get", "arguments": {"brand": "Fender", "model": "American Professional II Stratocaster", "finish": "Rosewood"}}}
+{"test_id": "simple_python_280", "prediction": {"name": "find_instrument", "arguments": {"budget": 1000, "type": "acoustic"}}}
+{"test_id": "simple_python_281", "prediction": {"name": "get_instrument_info", "arguments": {"name": "Violin", "maker": "Stradivarius", "year": 1721}}}
+{"test_id": "simple_python_282", "prediction": {"name": "find_flute", "arguments": {"brand": "Yamaha", "specs": "[\"open hole\""}}}
+{"test_id": "simple_python_283", "prediction": {"name": "guitar_price.find", "arguments": {"model": "Gibson Les Paul", "condition": "Excellent", "location": "Chicago"}}}
+{"test_id": "simple_python_284", "prediction": {"name": "concert_info.get", "arguments": {"location": "New York", "date": "next month", "genre": "Pop"}}}
+{"test_id": "simple_python_285", "prediction": {"name": "find_concert", "arguments": {"location": "\"Chicago", "price": 100, "genre": "Rock"}}}
+{"test_id": "simple_python_286", "prediction": {"name": "concert.get_details", "arguments": {"artist": "Beyonce", "location": "San Diego", "date": "04-2022"}}}
+{"test_id": "simple_python_287", "prediction": {"name": "concert.search", "arguments": {"genre": "Classical", "location": "Los Angeles", "date": "this weekend", "price_range": "cheap"}}}
+{"test_id": "simple_python_288", "prediction": {"name": "concert_booking.book_ticket", "arguments": {"artist": "Eminem", "city": "New York City", "num_tickets": 2}}}
+{"test_id": "simple_python_289", "prediction": {"name": "concert.find_nearby", "arguments": {"location": "\"Seattle", "genre": "jazz"}}}
+{"test_id": "simple_python_290", "prediction": {"name": "concert.find_details", "arguments": {"artist": "The Weeknd", "month": "December"}}}
+{"test_id": "simple_python_291", "prediction": {"name": "music_generator.generate_melody", "arguments": {"key": "C", "start_note": "C4", "length": 16, "tempo": 120}}}
+{"test_id": "simple_python_292", "prediction": {"name": "compose_melody", "arguments": {"progression": "[\"C\"", "measures": 4, "instrument": "Piano"}}}
+{"test_id": "simple_python_293", "prediction": {"name": "music_composer.create_mix", "arguments": {"scale": "C Major", "note_duration": "quarter", "track_length": 180}}}
+{"test_id": "simple_python_294", "prediction": {"name": "music_generation.create_chord_progression", "arguments": {"key": "C", "chords": 4, "progression_type": "major"}}}
+{"test_id": "simple_python_295", "prediction": {"name": "get_song_lyrics", "arguments": {"song_title": "Bohemian Rhapsody", "artist_name": "Queen"}}}
+{"test_id": "simple_python_296", "prediction": {"name": "music_generator.generate_scale_progression", "arguments": {"key": "C", "tempo": 80, "duration": 4, "scale_type": "major"}}}
+{"test_id": "simple_python_297", "prediction": {"name": "music.theory.chordProgression", "arguments": {"progression": "['I'"}}}
+{"test_id": "simple_python_298", "prediction": {"name": "music_theory.key_signature", "arguments": {"key": "C#", "scale_type": "major"}}}
+{"test_id": "simple_python_299", "prediction": {"name": "musical_scale", "arguments": {"key": "C#", "scale_type": "major"}}}
+{"test_id": "simple_python_300", "prediction": {"name": "The required parameter \"tempo\" is missing. Please provide the tempo of the music in beats per minute ", "arguments": {}}}
+{"test_id": "simple_python_301", "prediction": {"name": "get_third_chord", "arguments": {"key": "C", "type": "major"}}}
+{"test_id": "simple_python_302", "prediction": {"name": "calculate_batting_average", "arguments": {"hits": 180, "at_bats": 600, "decimal_places": 3}}}
+{"test_id": "simple_python_303", "prediction": {"name": "soccer_stat.get_player_stats", "arguments": {"player_name": "Cristiano Ronaldo", "season": "2019-2020"}}}
+{"test_id": "simple_python_304", "prediction": {"name": "player_stats.getLastGame", "arguments": {"player_name": "LeBron James", "team": "", "metrics": "[\"Points\""}}}
+{"test_id": "simple_python_305", "prediction": {"name": "The available functions do not support calculating the overall goals and assists of a soccer player in a specific league and season.", "arguments": {}}}
+{"test_id": "simple_python_306", "prediction": {"name": "average_batting_score", "arguments": {"player_name": "Virat Kohli", "matches": 10}}}
+{"test_id": "simple_python_307", "prediction": {"name": "game_result.get_winner", "arguments": {"teams": "[\"Lakers\"", "date": "2021-01-28"}}}
+{"test_id": "simple_python_308", "prediction": {"name": "sports.match_schedule", "arguments": {"team_name": "Manchester United", "num_matches": 5, "league": "English Premier League"}}}
+{"test_id": "simple_python_309", "prediction": {"name": "nfl_data.player_record", "arguments": {"player_name": "Tom Brady", "season_year": 2020}}}
+{"test_id": "simple_python_310", "prediction": {"name": "get_career_stats", "arguments": {"player_name": "LeBron James"}}}
+{"test_id": "simple_python_311", "prediction": {"name": "sports_db.find_athlete", "arguments": {"name": "Lebron James", "sport": "Basketball"}}}
+{"test_id": "simple_python_312", "prediction": {"name": "get_career_stats", "arguments": {"player_name": "Ronaldo", "team": "None"}}}
+{"test_id": "simple_python_313", "prediction": {"name": "celebrity_net_worth.get", "arguments": {"name": "Lionel Messi", "currency": "EUR"}}}
+{"test_id": "simple_python_314", "prediction": {"name": "sports_celebrity.get_major_achievements", "arguments": {"celebrity_name": "Lionel Messi", "sports": "Football"}}}
+{"test_id": "simple_python_315", "prediction": {"name": "get_defense_ranking", "arguments": {"season": 2021, "top": 1}}}
+{"test_id": "simple_python_316", "prediction": {"name": "get_sport_ranking", "arguments": {"sport": "Tennis", "player_name": "Serena Williams"}}}
+{"test_id": "simple_python_317", "prediction": {"name": "sports_ranking", "arguments": {"team": "LA Lakers", "league": "NBA", "season": 2021}}}
+{"test_id": "simple_python_318", "prediction": {"name": "get_team_ranking", "arguments": {"team_name": "Germany", "year": 2021, "gender": "men"}}}
+{"test_id": "simple_python_319", "prediction": {"name": "get_team_ranking", "arguments": {"team": "Manchester United", "league": "Premier League"}}}
+{"test_id": "simple_python_320", "prediction": {"name": "sports_ranking.get_team_position", "arguments": {"team": "Golden State Warriors", "season": "2022-2023", "detailed": "True"}}}
+{"test_id": "simple_python_321", "prediction": {"name": "sports_ranking", "arguments": {"team": "Barcelona", "league": "La Liga", "season": "2021"}}}
+{"test_id": "simple_python_322", "prediction": {"name": "sports_ranking.get_current", "arguments": {"team": "Liverpool Football Club", "league": "Premier League"}}}
+{"test_id": "simple_python_323", "prediction": {"name": "sports_ranking.get_top_player", "arguments": {"sport": "tennis", "gender": "women"}}}
+{"test_id": "simple_python_324", "prediction": {"name": "team_score.get_latest", "arguments": {"team": "Los Angeles Lakers", "include_opponent": true}}}
+{"test_id": "simple_python_325", "prediction": {"name": "sports.match_results", "arguments": {"team1": "Chicago Bulls", "team2": "Los Angeles Lakers"}}}
+{"test_id": "simple_python_326", "prediction": {"name": "get_team_score", "arguments": {"team_name": "Los Angeles Lakers", "league": "NBA", "include_player_stats": "True"}}}
+{"test_id": "simple_python_327", "prediction": {"name": "sports_team.get_schedule", "arguments": {"team_name": "Manchester United", "num_of_games": 6, "league": "Premier League"}}}
+{"test_id": "simple_python_328", "prediction": {"name": "boardgame.get_info", "arguments": {"name": "Ticket to Ride", "parameters": "[\"rating\""}}}
+{"test_id": "simple_python_329", "prediction": {"name": "monopoly_odds_calculator", "arguments": {"number": 7, "dice_number": 2}}}
+{"test_id": "simple_python_330", "prediction": {"name": "board_game_info", "arguments": {"game_name": "Catan", "info_required": "[\"average_review_rating\""}}}
+{"test_id": "simple_python_331", "prediction": {"name": "board_game.chess.get_top_players", "arguments": {"location": "New York", "minimum_rating": 2300}}}
+{"test_id": "simple_python_332", "prediction": {"name": "chess.rating", "arguments": {"player_name": "Magnus Carlsen", "variant": "classical"}}}
+{"test_id": "simple_python_333", "prediction": {"name": "detailed_weather_forecast", "arguments": {"location": "\"London", "days": 3, "details": "[\"high_low_temperature\""}}}
+{"test_id": "simple_python_334", "prediction": {"name": "blackjack.check_winner", "arguments": {"player_cards": "[\"A\"", "dealer_cards": "[\"10\"", "ace_value": 1}}}
+{"test_id": "simple_python_335", "prediction": {"name": "find_card_in_deck", "arguments": {"rank": "Queen", "suit": "Hearts"}}}
+{"test_id": "simple_python_336", "prediction": {"name": "cards.shuffle_and_draw", "arguments": {"num_cards": 3}}}
+{"test_id": "simple_python_337", "prediction": {"name": "poker_game_winner", "arguments": {"players": "[\"Alex\"", "cards": "{\"Alex\": [\"A of spades\"", "type": "Texas Holdem"}}}
+{"test_id": "simple_python_338", "prediction": {"name": "probabilities.calculate_single", "arguments": {"total_outcomes": 52, "event_outcomes": 13}}}
+{"test_id": "simple_python_339", "prediction": {"name": "poker_probability.full_house", "arguments": {"deck_size": 52, "hand_size": 5}}}
+{"test_id": "simple_python_340", "prediction": {"name": "card_games.poker_determine_winner", "arguments": {"player1": "John", "hand1": "[\"8\u2665\"", "player2": "Mike", "hand2": "[\"9\u2660\""}}}
+{"test_id": "simple_python_341", "prediction": {"name": "deck_of_cards.odds", "arguments": {"suit": "hearts", "deck_type": "without_joker"}}}
+{"test_id": "simple_python_342", "prediction": {"name": "game_list.get_games", "arguments": {"release_year": 2019, "multiplayer": "True", "ESRB_rating": "Everyone"}}}
+{"test_id": "simple_python_343", "prediction": {"name": "game_stats.fetch_player_statistics", "arguments": {"game": "'Zelda'", "username": "'Sam'", "platform": "'Switch'"}}}
+{"test_id": "simple_python_344", "prediction": {"name": "get_game_item_stats", "arguments": {"game": "Legend of Zelda: Breath of the Wild", "item": "Guardian Sword+", "stat": "power rating"}}}
+{"test_id": "simple_python_345", "prediction": {"name": "game_valuation", "arguments": {"game_name": "Super Mario Bros.", "release_year": 1985, "condition": "Like New"}}}
+{"test_id": "simple_python_346", "prediction": {"name": "get_collectables_in_season", "arguments": {"game_name": "Animal Crossing: New Horizons", "season": "Spring"}}}
+{"test_id": "simple_python_347", "prediction": {"name": "soccer.get_last_match", "arguments": {"team_name": "Liverpool F.C.", "include_stats": "True"}}}
+{"test_id": "simple_python_348", "prediction": {"name": "create_player_profile", "arguments": {"player_name": "'StarPlayer'", "_class": "'Mage'", "starting_level": 5}}}
+{"test_id": "simple_python_349", "prediction": {"name": "game_score.highest", "arguments": {"game": "Overwatch", "platform": "PC", "region": "Global"}}}
+{"test_id": "simple_python_350", "prediction": {"name": "get_highest_scoring_player", "arguments": {"game": "Valorant", "season": "2022"}}}
+{"test_id": "simple_python_351", "prediction": {"name": "multiplayer_game_finder", "arguments": {"platform": "Windows 10", "rating": 4.5}}}
+{"test_id": "simple_python_352", "prediction": {"name": "gamespot.getAverageUserScore", "arguments": {"game_name": "The Legend of Zelda: Breath of the Wild", "platform": "all platforms"}}}
+{"test_id": "simple_python_353", "prediction": {"name": "find_recipes", "arguments": {"diet": "gluten-free", "meal_type": "dinner", "ingredients": []}}}
+{"test_id": "simple_python_354", "prediction": {"name": "get_vegan_recipe", "arguments": {"dish_type": "soup", "cooking_time": 30}}}
+{"test_id": "simple_python_355", "prediction": {"name": "recipe_info.get_calories", "arguments": {"website": "Foodnetwork.com", "recipe": "Beef Lasagna"}}}
+{"test_id": "simple_python_356", "prediction": {"name": "recipe_finder.find", "arguments": {"servings": 2, "diet": "vegan", "prep_time": 30}}}
+{"test_id": "simple_python_357", "prediction": {"name": "get_recipe", "arguments": {"dish_name": "vegan chocolate cake", "diet_preference": "vegan"}}}
+{"test_id": "simple_python_358", "prediction": {"name": "recipe_search", "arguments": {"diet": ["Gluten Free"], "time_limit": 30, "dish": "cookie"}}}
+{"test_id": "simple_python_359", "prediction": {"name": "recipe_search", "arguments": {"dietary_restriction": "Vegetarian", "ingredients": "[\"pasta\"", "servings": 2}}}
+{"test_id": "simple_python_360", "prediction": {"name": "find_recipe", "arguments": {"recipeName": "pasta carbonara", "maxCalories": 500}}}
+{"test_id": "simple_python_361", "prediction": {"name": "restaurant.find_nearby", "arguments": {"location": "\"New York", "cuisine": "Italian", "max_distance": 5}}}
+{"test_id": "simple_python_362", "prediction": {"name": "get_best_sushi_places", "arguments": {"city": "Tokyo", "top": 5, "review_rate": 4.0}}}
+{"test_id": "simple_python_363", "prediction": {"name": "restaurant_search.find_closest", "arguments": {"location": "\"Boston", "cuisine": "Sushi", "amenities": ["Patio"]}}}
+{"test_id": "simple_python_364", "prediction": {"name": "restaurant_finder", "arguments": {"city": "Brooklyn", "cuisine": "Italian", "diet": "Gluten-free"}}}
+{"test_id": "simple_python_365", "prediction": {"name": "perform.string_reverse", "arguments": {"input_string": "2 pounds of butter"}}}
+{"test_id": "simple_python_366", "prediction": {"name": "recipe.unit_conversion", "arguments": {"value": 2, "from_unit": "tablespoon", "to_unit": "teaspoon"}}}
+{"test_id": "simple_python_367", "prediction": {"name": "find_recipe", "arguments": {"dietary_restrictions": "vegan", "recipe_type": "dessert", "time": 30}}}
+{"test_id": "simple_python_368", "prediction": {"name": "calculate_cooking_time", "arguments": {"weight_kg": 1.5}}}
+{"test_id": "simple_python_369", "prediction": {"name": "grocery_store.find_nearby", "arguments": {"location": "\"Houston", "categories": "[\"Organic\""}}}
+{"test_id": "simple_python_370", "prediction": {"name": "safeway.order", "arguments": {"location": "\"Palo Alto", "items": "[\"olive oil\"", "quantity": "[3"}}}
+{"test_id": "simple_python_371", "prediction": {"name": "whole_foods.check_price", "arguments": {"location": "Los Angeles", "items": "[\"tomatoes\""}}}
+{"test_id": "simple_python_372", "prediction": {"name": "whole_foods.find_top_brands", "arguments": {"product": "bananas", "number": 5, "organic": "True"}}}
+{"test_id": "simple_python_373", "prediction": {"name": "walmart.purchase", "arguments": {"loc": "San Jose", "product_list": "[\"apples\""}}}
+{"test_id": "simple_python_374", "prediction": {"name": "whole_foods.check_price", "arguments": {"location": "Walmart", "items": ["avocado"]}}}
+{"test_id": "simple_python_375", "prediction": {"name": "walmart.check_price", "arguments": {"items": "[\"pumpkin\"", "quantities": "[3"}}}
+{"test_id": "simple_python_376", "prediction": {"name": "time_zone_converter", "arguments": {"city": "London", "country": "United Kingdom", "display_format": "24h"}}}
+{"test_id": "simple_python_377", "prediction": {"name": "get_current_time", "arguments": {"city": "Sydney", "country": "Australia"}}}
+{"test_id": "simple_python_378", "prediction": {"name": "timezone.convert", "arguments": {"time": "3pm", "from_timezone": "America/New_York", "to_timezone": "Europe/London"}}}
+{"test_id": "simple_python_379", "prediction": {"name": "get_current_time", "arguments": {"location": "Sydney", "country": "Australia"}}}
+{"test_id": "simple_python_380", "prediction": {"name": "hotel_booking", "arguments": {"location": "\"Manhattan", "room_type": "single", "duration": 3, "start_date": "2023-03-10", "preferences": ["pet_friendly"]}}}
+{"test_id": "simple_python_381", "prediction": {"name": "hilton_hotel.check_availability", "arguments": {"location": "Paris", "check_in_date": "2023-04-04", "check_out_date": "2023-04-08", "no_of_adults": 2}}}
+{"test_id": "simple_python_382", "prediction": {"name": "hotel_booking", "arguments": {"location": "Chicago", "room_type": "single", "duration": 2, "start_date": "2022-12-10"}}}
+{"test_id": "simple_python_383", "prediction": {"name": "book_room", "arguments": {"hotel_name": "The Plaza", "room_type": "single", "num_nights": 2}}}
+{"test_id": "simple_python_384", "prediction": {"name": "hotel_booking.book", "arguments": {"city": "\"Paris", "from_date": "07-10-2022", "to_date": "07-20-2022", "adults": 2, "children": 1}}}
+{"test_id": "simple_python_385", "prediction": {"name": "hotel_bookings.book_room", "arguments": {"location": "\"Los Angeles", "room_type": "king size", "check_in_date": "15-10-2023", "no_of_nights": 2}}}
+{"test_id": "simple_python_386", "prediction": {"name": "book_hotel", "arguments": {"hotel_name": "Hotel Paradise", "location": "Las Vegas", "room_type": "luxury", "start_date": "05-12-2022", "stay_duration": 3, "view": "city view"}}}
+{"test_id": "simple_python_387", "prediction": {"name": "hotel_booking", "arguments": {"hotel_name": "Plaza Hotel", "location": "\"New York", "start_date": "2022-06-01", "end_date": "2022-06-04", "rooms": 1}}}
+{"test_id": "simple_python_388", "prediction": {"name": "currency_exchange.convert", "arguments": {"base_currency": "USD", "target_currency": "CAD", "amount": 500}}}
+{"test_id": "simple_python_389", "prediction": {"name": "The required parameters for the currency conversion function are missing, specifically the exchange rate between US dollars and British Pounds. Could you provide the exchange rate?", "arguments": {}}}
+{"test_id": "simple_python_390", "prediction": {"name": "latest_exchange_rate", "arguments": {"source_currency": "EUR", "target_currency": "CAD", "amount": 150}}}
+{"test_id": "simple_python_391", "prediction": {"name": "get_exchange_rate_with_fee", "arguments": {"base_currency": "GBP", "target_currency": "JPY", "fee": 0.02}}}
+{"test_id": "simple_python_392", "prediction": {"name": "latest_exchange_rate", "arguments": {"source_currency": "GBP", "target_currency": "JPY"}}}
+{"test_id": "simple_python_393", "prediction": {"name": "latest_exchange_rate", "arguments": {"source_currency": "JPY", "target_currency": "USD", "amount": 20000}}}
+{"test_id": "simple_python_394", "prediction": {"name": "maps.get_distance_duration", "arguments": {"start_location": "\"Eiffel Tower", "end_location": "\"Louvre Museum"}}}
+{"test_id": "simple_python_395", "prediction": {"name": "parking_lot.find_nearest", "arguments": {"location": "\"Central Park", "radius": 2}}}
+{"test_id": "simple_python_396", "prediction": {"name": "hospital.locate", "arguments": {"location": "\"Denver", "radius": 5, "department": "Pediatrics"}}}
+{"test_id": "simple_python_397", "prediction": {"name": "distance_calculator.calculate", "arguments": {"origin": "New York", "destination": "Boston", "consider_terrain": "True"}}}
+{"test_id": "simple_python_398", "prediction": {"name": "get_museum_hours", "arguments": {"museum_name": "Metropolitan Museum of Art", "day": "Saturday"}}}
+{"test_id": "simple_python_399", "prediction": {"name": "restaurant_search", "arguments": {"location": "\"New York City", "cuisine": "Italian", "rating": 4, "accepts_credit_cards": "True"}}}

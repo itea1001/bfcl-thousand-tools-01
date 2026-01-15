@@ -1,0 +1,63 @@
+Category Scaling Evaluation Results
+====================================
+
+Model: gpt-4o-mini-2024-07-18
+---
+  Category: parallel
+    Pool 0: 91.00%
+    Pool 16: 83.00%
+    Pool 32: 82.00%
+    Pool 64: 80.00%
+    Pool 128: 70.00%
+    Pool 256: 58.50%
+    Pool 512: 50.50%
+
+  Category: multiple
+    Pool 0: 92.50%
+    Pool 16: 87.50%
+    Pool 32: 82.50%
+    Pool 64: 81.50%
+    Pool 128: 70.50%
+    Pool 256: 62.00%
+    Pool 512: 48.50%
+
+  Category: parallel_multiple
+    Pool 0: 90.00%
+    Pool 16: 84.00%
+    Pool 32: 79.50%
+    Pool 64: 73.50%
+    Pool 128: 59.50%
+    Pool 256: 56.00%
+    Pool 512: 34.00%
+
+
+Model: gpt-4o-2024-11-20
+---
+  Category: parallel
+    Pool 0: 94.00%
+    Pool 16: 91.00%
+    Pool 32: 90.00%
+    Pool 64: 88.00%
+    Pool 128: 86.50%
+    Pool 256: 77.00%
+    Pool 512: 65.50%
+
+  Category: multiple
+    Pool 0: 93.50%
+    Pool 16: 90.50%
+    Pool 32: 90.50%
+    Pool 64: 91.50%
+    Pool 128: 86.00%
+    Pool 256: 85.00%
+    Pool 512: 80.00%
+
+  Category: parallel_multiple
+    Pool 0: 86.00%
+    Pool 16: 87.50%
+    Pool 32: 85.00%
+    Pool 64: 83.00%
+    Pool 128: 77.50%
+    Pool 256: 69.00%
+    Pool 512: 60.50%
+
+
