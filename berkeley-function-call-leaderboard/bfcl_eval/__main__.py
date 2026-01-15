@@ -153,6 +153,11 @@ def generate(
         "--num-distractor-functions",
         help="Number of additional random distractor functions to inject into each test case to increase the function pool size. Set to 0 to disable (default).",
     ),
+    prompt_variation: Optional[str] = typer.Option(
+        None,
+        "--prompt-variation",
+        help="Prompt format variation to use (e.g., 'res_fmt=json,doc_fmt=json' or 'json_tagged')",
+    ),
 ):
     """
     Generate the LLM response for one or more models on a test-category (same as openfunctions_evaluation.py).
@@ -174,6 +179,7 @@ def generate(
         allow_overwrite=allow_overwrite,
         run_ids=run_ids,
         num_distractor_functions=num_distractor_functions,
+        prompt_variation=prompt_variation,
     )
     load_dotenv(dotenv_path=DOTENV_PATH, verbose=True, override=True)  # Load the .env file
     generation_main(args)
@@ -262,13 +268,18 @@ def evaluate(
         "--partial-eval",
         help="Run evaluation on a partial set of benchmark entries (eg. entries present in the model result files) without raising for missing IDs.",
     ),
+    prompt_variation: Optional[str] = typer.Option(
+        None,
+        "--prompt-variation",
+        help="Prompt format variation used during generation (e.g., 'res_fmt=json,doc_fmt=json')",
+    ),
 ):
     """
     Evaluate results from run of one or more models on a test-category (same as eval_runner.py).
     """
 
     load_dotenv(dotenv_path=DOTENV_PATH, verbose=True, override=True)  # Load the .env file
-    evaluation_main(model, test_category, result_dir, score_dir, partial_eval)
+    evaluation_main(model, test_category, result_dir, score_dir, partial_eval, prompt_variation)
 
 
 @cli.command()
