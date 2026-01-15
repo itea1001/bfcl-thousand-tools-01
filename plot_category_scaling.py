@@ -126,3 +126,4 @@ print("Saved: category_degradation_comparison.png")
 
 print("\nAll plots generated successfully!")
 
+

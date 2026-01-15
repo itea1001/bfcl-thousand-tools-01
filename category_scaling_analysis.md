@@ -97,3 +97,4 @@ Pattern: GPT-4o shows more consistent performance across categories, while GPT-4
    - GPT-4o-mini may struggle with >256 tools in parallel_multiple tasks
    - Simple and multiple categories are more robust to distractor functions than parallel variants
 
+
