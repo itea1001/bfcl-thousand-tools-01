@@ -1,0 +1,842 @@
+[
+  {
+    "test_id": "simple_python_0",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_triangle_area\", \"parameters\": {\"base\": 10, \"height\": 5}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_1",
+    "format": "json",
+    "response": "{{\"function_name\": \"math.factorial\", \"parameters\": {\"number\": 5}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_2",
+    "format": "json",
+    "response": "[\n  {\"function_name\": \"math.hypot\", \"parameters\": {\"x\": 4, \"y\": 5}}\n]",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_3",
+    "format": "json",
+    "response": "{{\"function_name\": \"algebra.quadratic_roots\", \"parameters\": {\"a\": 1, \"b\": -3, \"c\": 2}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_4",
+    "format": "json",
+    "response": "{{\"function_name\": \"solve_quadratic_equation\", \"parameters\": {\"a\": 2, \"b\": 6, \"c\": 5}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_5",
+    "format": "json",
+    "response": "{{\"function_name\": \"solve_quadratic\", \"parameters\": {\"a\": 3, \"b\": -11, \"c\": -4, \"root_type\": \"all\"}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_6",
+    "format": "json",
+    "response": "{{\"function_name\": \"solve_quadratic\", \"parameters\": {\"a\": 2, \"b\": 5, \"c\": 3}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_7",
+    "format": "json",
+    "response": "[{\"function_name\": \"calculate_circumference\", \"parameters\": {\"radius\": 4, \"unit\": \"inches\"}}]",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_8",
+    "format": "json",
+    "response": "{{\"function_name\": \"geometry.area_circle\", \"parameters\": {\"radius\": 10}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_9",
+    "format": "json",
+    "response": "{{\"function_name\": \"geometry.calculate_area_circle\", \"parameters\": {\"radius\": 5}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_10",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_area\", \"parameters\": {\"base\": 6, \"height\": 10}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_11",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_triangle_area\", \"parameters\": {\"base\": 10, \"height\": 5}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_12",
+    "format": "json",
+    "response": "{{\"function_name\": \"geometry.circumference\", \"parameters\": {\"radius\": 3}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_13",
+    "format": "json",
+    "response": "[{\"function_name\": \"calculate_area_under_curve\", \"parameters\": {\"function\": \"x^2\", \"interval\": [1, 3]}}]",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_14",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_derivative\", \"parameters\": {\"function\": \"3x^2 + 2x - 1\"}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_15",
+    "format": "json",
+    "response": "{{\"function_name\": \"integrate\", \"parameters\": {\"function\": \"x^3\", \"start_x\": -2, \"end_x\": 3, \"method\": \"simpson\"}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_16",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculus.derivative\", \"parameters\": {\"function\": \"2x^2\", \"value\": 1}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_17",
+    "format": "json",
+    "response": "{{\"function_name\": \"get_prime_factors\", \"parameters\": {\"number\": 450, \"formatted\": true}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_18",
+    "format": "json",
+    "response": "{{\"function_name\": \"number_analysis.prime_factors\", \"parameters\": {\"number\": 123456}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_19",
+    "format": "json",
+    "response": "{{\"function_name\": \"math.gcd\", \"parameters\": {\"num1\": 40, \"num2\": 50}}}",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_0",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_triangle_area\", \"parameters\": {\"base\": 10, \"height\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_1",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"math.factorial\", \"parameters\": {\"number\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_2",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"math.hypot\", \"parameters\": {\"x\": 4, \"y\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_3",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"algebra.quadratic_roots\", \"parameters\": {\"a\": 1, \"b\": -3, \"c\": 2}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_4",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"solve_quadratic_equation\", \"parameters\": {\"a\": 2, \"b\": 6, \"c\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_5",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"solve_quadratic\", \"parameters\": {\"a\": 3, \"b\": -11, \"c\": -4, \"root_type\": \"all\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_6",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"solve_quadratic\", \"parameters\": {\"a\": 2, \"b\": 5, \"c\": 3}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_7",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_circumference\", \"parameters\": {\"radius\": 4, \"unit\": \"inches\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_8",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"geometry.area_circle\", \"parameters\": {\"radius\": 10}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_9",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"geometry.calculate_area_circle\", \"parameters\": {\"radius\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_10",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_area\", \"parameters\": {\"base\": 6, \"height\": 10}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_11",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_triangle_area\", \"parameters\": {\"base\": 10, \"height\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_12",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"geometry.circumference\", \"parameters\": {\"radius\": 3}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_13",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_area_under_curve\", \"parameters\": {\"function\": \"x^2\", \"interval\": [1.0, 3.0]}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_14",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_derivative\", \"parameters\": {\"function\": \"3x^2 + 2x - 1\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_15",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"integrate\", \"parameters\": {\"function\": \"x^3\", \"start_x\": -2, \"end_x\": 3, \"method\": \"simpson\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_16",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculus.derivative\", \"parameters\": {\"function\": \"2x^2\", \"value\": 1}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_17",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"get_prime_factors\", \"parameters\": {\"number\": 450, \"formatted\": true}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_18",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"number_analysis.prime_factors\", \"parameters\": {\"number\": 123456}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_19",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"math.gcd\", \"parameters\": {\"num1\": 40, \"num2\": 50}}}</tool_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_0",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_triangle_area</name>\n    <arguments>\n        <arg name=\"base\" type=\"int\">10</arg>\n        <arg name=\"height\" type=\"int\">5</arg>\n        <arg name=\"unit\" type=\"string\">units</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_1",
+    "format": "xml",
+    "response": "<function_call>\n    <name>math.factorial</name>\n    <arguments>\n        <arg name=\"number\" type=\"int\">5</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_2",
+    "format": "xml",
+    "response": "<function_call>\n    <name>math.hypot</name>\n    <arguments>\n        <arg name=\"x\" type=\"integer\">4</arg>\n        <arg name=\"y\" type=\"integer\">5</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_3",
+    "format": "xml",
+    "response": "<function_call>\n    <name>algebra.quadratic_roots</name>\n    <arguments>\n        <arg name=\"a\" type=\"int\">1</arg>\n        <arg name=\"b\" type=\"int\">-3</arg>\n        <arg name=\"c\" type=\"int\">2</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_4",
+    "format": "xml",
+    "response": "<function_call>\n    <name>solve_quadratic_equation</name>\n    <arguments>\n        <arg name=\"a\" type=\"int\">2</arg>\n        <arg name=\"b\" type=\"int\">6</arg>\n        <arg name=\"c\" type=\"int\">5</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_5",
+    "format": "xml",
+    "response": "<function_call>\n    <name>solve_quadratic</name>\n    <arguments>\n        <arg name=\"a\" type=\"integer\">3</arg>\n        <arg name=\"b\" type=\"integer\">-11</arg>\n        <arg name=\"c\" type=\"integer\">-4</arg>\n        <arg name=\"root_type\" type=\"string\">all</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_6",
+    "format": "xml",
+    "response": "<function_call>\n    <name>solve_quadratic</name>\n    <arguments>\n        <arg name=\"a\" type=\"int\">2</arg>\n        <arg name=\"b\" type=\"int\">5</arg>\n        <arg name=\"c\" type=\"int\">3</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_7",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_circumference</name>\n    <arguments>\n        <arg name=\"radius\" type=\"int\">4</arg>\n        <arg name=\"unit\" type=\"string\">inches</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_8",
+    "format": "xml",
+    "response": "<function_call>\n    <name>geometry.area_circle</name>\n    <arguments>\n        <arg name=\"radius\" type=\"int\">10</arg>\n        <arg name=\"units\" type=\"string\">meters</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_9",
+    "format": "xml",
+    "response": "<function_call>\n    <name>geometry.calculate_area_circle</name>\n    <arguments>\n        <arg name=\"radius\" type=\"int\">5</arg>\n        <arg name=\"unit\" type=\"string\">units</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_10",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_area</name>\n    <arguments>\n        <arg name=\"base\" type=\"int\">6</arg>\n        <arg name=\"height\" type=\"int\">10</arg>\n        <arg name=\"unit\" type=\"string\">cm</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_11",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_triangle_area</name>\n    <arguments>\n        <arg name=\"base\" type=\"int\">10</arg>\n        <arg name=\"height\" type=\"int\">5</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_12",
+    "format": "xml",
+    "response": "<function_call>\n    <name>geometry.circumference</name>\n    <arguments>\n        <arg name=\"radius\" type=\"int\">3</arg>\n        <arg name=\"units\" type=\"string\">cm</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_13",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_area_under_curve</name>\n    <arguments>\n        <arg name=\"function\" type=\"string\">y=x^2</arg>\n        <arg name=\"interval\" type=\"array\">[1.0, 3.0]</arg>\n        <arg name=\"method\" type=\"string\">trapezoidal</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_14",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_derivative</name>\n    <arguments>\n        <arg name=\"function\" type=\"string\">3x^2 + 2x - 1</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_15",
+    "format": "xml",
+    "response": "<function_call>\n    <name>integrate</name>\n    <arguments>\n        <arg name=\"function\" type=\"string\">x^3</arg>\n        <arg name=\"start_x\" type=\"int\">-2</arg>\n        <arg name=\"end_x\" type=\"int\">3</arg>\n        <arg name=\"method\" type=\"string\">simpson</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_16",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculus.derivative</name>\n    <arguments>\n        <arg name=\"function\" type=\"string\">2x^2</arg>\n        <arg name=\"value\" type=\"integer\">1</arg>\n        <arg name=\"function_variable\" type=\"string\">x</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_17",
+    "format": "xml",
+    "response": "<function_call>\n    <name>get_prime_factors</name>\n    <arguments>\n        <arg name=\"number\" type=\"int\">450</arg>\n        <arg name=\"formatted\" type=\"bool\">true</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_18",
+    "format": "xml",
+    "response": "<function_call>\n    <name>number_analysis.prime_factors</name>\n    <arguments>\n        <arg name=\"number\" type=\"int\">123456</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_19",
+    "format": "xml",
+    "response": "<function_call>\n    <name>math.gcd</name>\n    <arguments>\n        <arg name=\"num1\" type=\"int\">40</arg>\n        <arg name=\"num2\" type=\"int\">50</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 0
+  },
+  {
+    "test_id": "simple_python_71_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"generate_dna_sequence\", \"parameters\": {\"length\": 100, \"preferences\": [\"G\", \"C\"]}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_28_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_displacement\", \"parameters\": {\"initial_velocity\": 10, \"time\": 5, \"acceleration\": 9.8}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_68_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"forest_growth_forecast\", \"parameters\": {\"location\": \"Yellowstone National Park\", \"years\": 5, \"include_human_impact\": true}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_293_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"music_composer.create_mix\", \"parameters\": {\"scale\": \"C Major\", \"note_duration\": \"quarter\", \"track_length\": 180}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_131_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_compound_interest\", \"parameters\": {\"principal\": 10000, \"rate\": 0.05, \"time\": 10, \"n\": 4}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_183_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"lawsuit_info\", \"parameters\": {\"company_name\": \"Apple\", \"county\": \"Santa Clara\"}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_174_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"get_top_cases\", \"parameters\": {\"field_of_law\": \"constitutional law\", \"top_number\": 10, \"country\": \"China\"}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_349_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"game_score.highest\", \"parameters\": {\"game\": \"Overwatch\", \"platform\": \"PC\", \"region\": \"Global\"}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_147_pool512",
+    "format": "json",
+    "response": "[\n  {{\"function_name\": \"get_stock_prices\", \"parameters\": {\"companies\": [\"Microsoft\", \"Google\"], \"duration\": \"2 weeks\"}}}\n]",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_222_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_bmi\", \"parameters\": {\"weight\": 70, \"height\": 180}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_295_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"get_song_lyrics\", \"parameters\": {\"song_title\": \"Bohemian Rhapsody\", \"artist_name\": \"Queen\"}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_383_pool512",
+    "format": "json",
+    "response": "[\n  {{\"function_name\": \"Hotels_4_SearchHotel\", \"parameters\": {{\"location\": \"New York, NY\", \"star_rating\": \"dontcare\", \"smoking_allowed\": false, \"number_of_rooms\": 1}}}},\n  {{\"function_name\": \"Hotels_4_ReserveHotel\", \"parameters\": {{\"place_name\": \"The Plaza\", \"check_in_date\": \"2023-10-01\", \"stay_length\": 2, \"location\": \"New York, NY\", \"number_of_rooms\": \"1\"}}}}\n]",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_240_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"history_api.get_president_by_year\", \"parameters\": {\"year\": 1940}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_88_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_bmi\", \"parameters\": {\"height\": 5.741, \"weight\": 70}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_220_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_neuronal_activity\", \"parameters\": {\"input_synaptic_rate\": 200, \"weight\": 0.5, \"decay_rate\": 0.1}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_44_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_electric_field\", \"parameters\": {\"charge\": 0.01, \"distance\": 4}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_135_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_return_on_investment\", \"parameters\": {\"purchase_price\": 20, \"sale_price\": 25, \"dividend\": 2}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_72_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"calculate_fitness\", \"parameters\": {\"trait_values\": [0.8, 0.7], \"trait_contributions\": [0.4, 0.6]}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_137_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"portfolio_future_value\", \"parameters\": {\"stock\": \"ABC\", \"invested_amount\": 5000, \"expected_annual_return\": 0.06, \"years\": 5}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_157_pool512",
+    "format": "json",
+    "response": "{{\"function_name\": \"criminal_history.check_felonies\", \"parameters\": {\"full_name\": \"John Doe\", \"birth_date\": \"01-01-1980\", \"state\": \"California\"}}}",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_71_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"generate_dna_sequence\", \"parameters\": {\"length\": 100, \"preferences\": [\"G\", \"C\"]}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_28_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_displacement\", \"parameters\": {\"initial_velocity\": 10, \"time\": 5, \"acceleration\": 9.8}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_68_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"forest_growth_forecast\", \"parameters\": {\"location\": \"Yellowstone National Park\", \"years\": 5, \"include_human_impact\": true}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_293_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"music_composer.create_mix\", \"parameters\": {\"scale\": \"C Major\", \"note_duration\": \"quarter\", \"track_length\": 180}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_131_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_compound_interest\", \"parameters\": {\"principal\": 10000, \"rate\": 0.05, \"time\": 10, \"n\": 4}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_183_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"lawsuit_search\", \"parameters\": {\"company_name\": \"Apple\", \"location\": \"Santa Clara County\", \"year\": 2023}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_174_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"get_top_cases\", \"parameters\": {\"field_of_law\": \"constitutional law\", \"top_number\": 10, \"country\": \"China\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_349_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"game_score.highest\", \"parameters\": {\"game\": \"Overwatch\", \"platform\": \"PC\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_147_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>[\n  {{\"function_name\": \"get_stock_prices\", \"parameters\": {\"companies\": [\"Microsoft\", \"Google\"], \"duration\": \"2 weeks\"}}}\n]</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_222_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_bmi\", \"parameters\": {\"weight\": 70, \"height\": 180}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_295_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"get_song_lyrics\", \"parameters\": {\"song_title\": \"Bohemian Rhapsody\", \"artist_name\": \"Queen\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_383_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"Hotels_4_ReserveHotel\", \"parameters\": {\"place_name\": \"The Plaza\", \"check_in_date\": \"2023-10-01\", \"stay_length\": 2, \"location\": \"New York, NY\", \"number_of_rooms\": \"1\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_240_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"history_api.get_president_by_year\", \"parameters\": {\"year\": 1940}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_88_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_bmi\", \"parameters\": {\"height\": 5.741, \"weight\": 70}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_220_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_neuronal_activity\", \"parameters\": {\"input_synaptic_rate\": 200, \"weight\": 0.5, \"decay_rate\": 0.1}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_44_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_electric_field\", \"parameters\": {\"charge\": 0.01, \"distance\": 4}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_135_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_return_on_investment\", \"parameters\": {\"purchase_price\": 20, \"sale_price\": 25, \"dividend\": 2}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_72_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_fitness\", \"parameters\": {\"trait_values\": [0.8, 0.7], \"trait_contributions\": [0.4, 0.6]}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_137_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"calculate_stock_return\", \"parameters\": {\"investment_amount\": 5000, \"annual_growth_rate\": 0.06, \"holding_period\": 5}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_157_pool512",
+    "format": "json_tagged",
+    "response": "<tool_call>{{\"function_name\": \"criminal_history.check_felonies\", \"parameters\": {\"full_name\": \"John Doe\", \"birth_date\": \"01-01-1980\", \"state\": \"California\"}}}</tool_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_71_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>generate_DNA_sequence</name>\n    <arguments>\n        <arg name=\"length\" type=\"integer\">100</arg>\n        <arg name=\"preferences\" type=\"array\">[\"G\", \"C\"]</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_28_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_displacement</name>\n    <arguments>\n        <arg name=\"initial_velocity\" type=\"integer\">10</arg>\n        <arg name=\"time\" type=\"integer\">5</arg>\n        <arg name=\"acceleration\" type=\"float\">9.8</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_68_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>forest_growth_forecast</name>\n    <arguments>\n        <arg name=\"location\" type=\"string\">Yellowstone National Park</arg>\n        <arg name=\"years\" type=\"integer\">5</arg>\n        <arg name=\"include_human_impact\" type=\"bool\">true</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_293_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>music_composer.create_mix</name>\n    <arguments>\n        <arg name=\"scale\" type=\"string\">C Major</arg>\n        <arg name=\"note_duration\" type=\"string\">quarter</arg>\n        <arg name=\"track_length\" type=\"integer\">180</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_131_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_compound_interest</name>\n    <arguments>\n        <arg name=\"principal\" type=\"integer\">10000</arg>\n        <arg name=\"rate\" type=\"float\">0.05</arg>\n        <arg name=\"time\" type=\"integer\">10</arg>\n        <arg name=\"n\" type=\"integer\">4</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_183_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>lawsuit_search</name>\n    <arguments>\n        <arg name=\"company_name\" type=\"string\">Apple</arg>\n        <arg name=\"location\" type=\"string\">Santa Clara County</arg>\n        <arg name=\"year\" type=\"integer\">2023</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_174_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>get_top_cases</name>\n    <arguments>\n        <arg name=\"field_of_law\" type=\"string\">constitutional law</arg>\n        <arg name=\"top_number\" type=\"integer\">10</arg>\n        <arg name=\"country\" type=\"string\">China</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_349_pool512",
+    "format": "xml",
+    "response": "```xml\n<function_call>\n    <name>game_score.highest</name>\n    <arguments>\n        <arg name=\"game\" type=\"string\">Overwatch</arg>\n        <arg name=\"platform\" type=\"string\">PC</arg>\n        <arg name=\"region\" type=\"string\">Global</arg>\n    </arguments>\n</function_call>\n```",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_147_pool512",
+    "format": "xml",
+    "response": "<function_calls>\n    <function_call>\n        <name>get_stock_prices</name>\n        <arguments>\n            <arg name=\"companies\" type=\"array\">[\"Microsoft\", \"Google\"]</arg>\n            <arg name=\"duration\" type=\"string\">\"2 weeks\"</arg>\n        </arguments>\n    </function_call>\n</function_calls>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_222_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_bmi</name>\n    <arguments>\n        <arg name=\"weight\" type=\"integer\">70</arg>\n        <arg name=\"height\" type=\"integer\">180</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_295_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>get_song_lyrics</name>\n    <arguments>\n        <arg name=\"song_title\" type=\"string\">Bohemian Rhapsody</arg>\n        <arg name=\"artist_name\" type=\"string\">Queen</arg>\n        <arg name=\"lang\" type=\"string\">English</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_383_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>Hotels_4_ReserveHotel</name>\n    <arguments>\n        <arg name=\"place_name\" type=\"string\">The Plaza</arg>\n        <arg name=\"check_in_date\" type=\"string\">2023-10-01</arg>\n        <arg name=\"stay_length\" type=\"int\">2</arg>\n        <arg name=\"location\" type=\"string\">New York, NY</arg>\n        <arg name=\"number_of_rooms\" type=\"string\">1</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_240_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>history_api.get_president_by_year</name>\n    <arguments>\n        <arg name=\"year\" type=\"integer\">1940</arg>\n        <arg name=\"full_term_only\" type=\"bool\">false</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_88_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_bmi</name>\n    <arguments>\n        <arg name=\"height\" type=\"float\">1.75</arg>\n        <arg name=\"weight\" type=\"integer\">70</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_220_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_neuronal_activity</name>\n    <arguments>\n        <arg name=\"input_synaptic_rate\" type=\"integer\">200</arg>\n        <arg name=\"weight\" type=\"float\">0.5</arg>\n        <arg name=\"decay_rate\" type=\"float\">0.1</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_44_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_electric_field</name>\n    <arguments>\n        <arg name=\"charge\" type=\"float\">0.01</arg>\n        <arg name=\"distance\" type=\"float\">4</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_135_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_return_on_investment</name>\n    <arguments>\n        <arg name=\"purchase_price\" type=\"integer\">20</arg>\n        <arg name=\"sale_price\" type=\"integer\">25</arg>\n        <arg name=\"dividend\" type=\"integer\">2</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_72_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_fitness</name>\n    <arguments>\n        <arg name=\"trait_values\" type=\"array\">[0.8, 0.7]</arg>\n        <arg name=\"trait_contributions\" type=\"array\">[0.4, 0.6]</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_137_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>calculate_stock_return</name>\n    <arguments>\n        <arg name=\"investment_amount\" type=\"integer\">5000</arg>\n        <arg name=\"annual_growth_rate\" type=\"float\">0.06</arg>\n        <arg name=\"holding_period\" type=\"integer\">5</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  },
+  {
+    "test_id": "simple_python_157_pool512",
+    "format": "xml",
+    "response": "<function_call>\n    <name>criminal_history.check_felonies</name>\n    <arguments>\n        <arg name=\"full_name\" type=\"string\">John Doe</arg>\n        <arg name=\"birth_date\" type=\"string\">01-01-1980</arg>\n        <arg name=\"state\" type=\"string\">California</arg>\n    </arguments>\n</function_call>",
+    "success": true,
+    "pool_size": 512
+  }
+]
