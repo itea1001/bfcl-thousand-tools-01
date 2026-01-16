@@ -9,6 +9,7 @@ ALL_AVAILABLE_MEMORY_BACKENDS = [
 
 NON_LIVE_CATEGORY = [
     "simple_python",
+    "simple_python_pool512",
     "simple_java",
     "simple_javascript",
     "multiple",

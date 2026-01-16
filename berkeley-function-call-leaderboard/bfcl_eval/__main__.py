@@ -279,7 +279,8 @@ def evaluate(
     """
 
     load_dotenv(dotenv_path=DOTENV_PATH, verbose=True, override=True)  # Load the .env file
-    evaluation_main(model, test_category, result_dir, score_dir, partial_eval, prompt_variation)
+    # prompt_variation is only needed for generation, not evaluation
+    evaluation_main(model, test_category, result_dir, score_dir, partial_eval)
 
 
 @cli.command()

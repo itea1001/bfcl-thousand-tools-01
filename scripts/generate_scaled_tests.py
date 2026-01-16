@@ -57,7 +57,7 @@ def generate_scaled_test_set(
     base_tests: List[Dict[str, Any]],
     all_functions: List[Dict[str, Any]],
     pool_size: int,
-    num_tests: int = 100
+    num_tests: int = 400
 ) -> List[Dict[str, Any]]:
     """
     Generate a test set with a specific function pool size.
@@ -102,9 +102,9 @@ def generate_scaled_test_set(
                 print(f"Warning: Not enough unique functions for pool size {pool_size}, skipping test {original_test['id']}")
                 continue
         
-        # Update test ID to indicate pool size
-        new_test['id'] = f"{original_test['id']}_pool{pool_size}"
-        new_test['pool_size'] = pool_size
+            # Keep original ID, add pool_size as metadata only
+            # new_test['id'] = f"{original_test['id']}_pool{pool_size}"
+            new_test['pool_size'] = pool_size
         
         scaled_tests.append(new_test)
     
@@ -132,7 +132,7 @@ def main():
             base_tests=base_tests,
             all_functions=all_functions,
             pool_size=pool_size,
-            num_tests=100  # Sample 100 tests per pool size
+            num_tests=400  # Sample 400 tests per pool size
         )
         
         print(f"  Generated {len(scaled_tests)} test cases")

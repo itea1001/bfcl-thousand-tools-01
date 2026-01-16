@@ -1,0 +1,32 @@
+{
+  "baseline_json": {
+    "correct": 345,
+    "total": 400,
+    "accuracy": 0.8625
+  },
+  "baseline_json_tagged": {
+    "correct": 345,
+    "total": 400,
+    "accuracy": 0.8625
+  },
+  "baseline_xml": {
+    "correct": 343,
+    "total": 400,
+    "accuracy": 0.8575
+  },
+  "pool512_json": {
+    "correct": 257,
+    "total": 400,
+    "accuracy": 0.6425
+  },
+  "pool512_json_tagged": {
+    "correct": 255,
+    "total": 400,
+    "accuracy": 0.6375
+  },
+  "pool512_xml": {
+    "correct": 256,
+    "total": 400,
+    "accuracy": 0.64
+  }
+}

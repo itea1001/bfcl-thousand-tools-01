@@ -84,3 +84,4 @@ This initial test confirms the model can *generate* all formats, but doesn't yet
 - `manual_prompt_variation_results.json`: Raw results with all 120 test responses
 - `scripts/manual_prompt_variation_test.py`: Test script used for this experiment
 
+

@@ -20,7 +20,7 @@ from bfcl_eval.constants.prompt_variations import (
 
 # Test configuration
 MODEL = "gpt-4o-mini-2024-07-18"
-NUM_SAMPLES = 20  # Test on 20 samples per configuration
+NUM_SAMPLES = 400  # Test on 400 samples per configuration
 TEMPERATURE = 0.001
 
 # Format variations to test
